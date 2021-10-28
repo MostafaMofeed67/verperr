@@ -1,0 +1,44 @@
+body {
+  font-family: "KoHo", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-grey-dark;
+}
+
+.heading--primary {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  color: $color-grey-dark-2;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2.5rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -6rem;
+    transform: translateY(-50%);
+    width: 5rem;
+    height: 2px;
+    background-color: $color-primary;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -6rem;
+    transform: translateY(-50%);
+    width: 5rem;
+    height: 2px;
+    background-color: $color-primary;
+    // margin-right: 1rem;
+  }
+}
+
+// .text--secondary {
+// }

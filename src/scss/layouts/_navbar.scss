@@ -1,0 +1,174 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3000;
+  transition: 0.5s;
+  background-color: $color-white;
+  width: 100%;
+  
+
+  .container {
+    min-height: 9rem;
+    transition: 0.5s;
+  }
+
+  &__logo {
+    h3 {
+      font-size: 3rem;
+      color: $color-grey-dark-2;
+      font-weight: 700;
+      letter-spacing: 1px;
+      
+    }
+  }
+
+  &__list {
+    margin-bottom: 0 !important;
+    @include respond(tab-port) {
+      position: absolute;
+      top: 50%;
+      left: -100%;
+      transform: translate(0%, -50%);
+      width: 90%;
+      min-height: 60rem;
+      background-color: #fff;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      border-radius: 5px;
+      overflow-y: auto;
+      z-index: 1001;
+    }
+  }
+
+  &__item {
+    padding: 1rem;
+    font-size: $default-font-size;
+    position: relative;
+
+    @include respond(tab-port) {
+      width: 100%;
+    }
+
+    i {
+      font-size: 1rem;
+    }
+
+    ul {
+      position: absolute;
+      top: 6rem;
+      left: 0;
+      flex-direction: column;
+      display: none !important;
+      background-color: $color-white;
+      box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.1);
+      z-index: 1002;
+      transition: 0.5s;
+
+      li {
+        display: block !important;
+        width: 20rem;
+        padding: 1rem;
+        a {
+          color: $color-grey-dark-1;
+        }
+      }
+    }
+  }
+
+  &__dropdown {
+    a {
+      cursor: pointer;
+    }
+  }
+
+  &__dropdown.active ul {
+    @include respond(tab-port) {
+      position: relative;
+      top: 0;
+    }
+    display: block !important;
+  }
+
+  &__link {
+    color: $color-grey-dark-1;
+  }
+
+  &__burger {
+    display: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    @include respond(tab-port) {
+      display: block;
+    }
+
+    > div {
+      width: 25px;
+      height: 3px;
+      background-color: #222;
+      margin: 5px;
+    }
+  }
+
+  &__overlay {
+    @include respond(tab-port) {
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.8);
+      transition: all 0.5s ease-in-out;
+      z-index: 1000;
+    }
+
+    &--p {
+      position: absolute;
+      top: 0px;
+      right: 20px;
+      color: #fff;
+      font-size: 30px;
+      cursor: pointer;
+      display: none;
+
+      @include respond(tab-port) {
+        display: block;
+      }
+    }
+  }
+}
+
+.nav.active {
+  background-color: $color-white;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.06);
+
+  .container {
+    min-height: 6.5rem;
+  }
+
+  .nav__item {
+    ul {
+      top: 5rem;
+    }
+  }
+}
+
+.nav__overlay.active {
+  display: block;
+  left: 0;
+}
+.nav .nav__list.active {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  transition: all 0.5s 0.5s ease-in-out;
+}
+
+.nav .nav__burger.active {
+  transform: translateY(40px);
+  opacity: 0;
+}

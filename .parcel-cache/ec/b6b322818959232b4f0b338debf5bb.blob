@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vesperr</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="c5b17644e9b6ae13bb384d72781855da">
+    <link href="577cac0d6c4cbd3178edab511bc969c0" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="6ec64f480eac2a620c4487f4d60c82b0" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+
+    <!-- AOS css -->
+    <link href="90e7a57dec92042ada64014e73142486" rel="stylesheet">
+
+    <!-- swipper css -->
+    <link rel="stylesheet" href="d89a092efd5bbcf824c179fdfcd25ca9">
+
+    <!-- MAIN SCSS -->
+    <link rel="stylesheet" href="1c78a38854e4c90b2e72bed938bc24c3">
+
+    <!-- APP JS -->
+    <script defer="" src="48cd9ab225ea179152253edc5827e82f"></script>
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="nav">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="nav__logo">
+          <h3>Vesperr</h3>
+        </div>
+        <div class="nav__overlay">
+          <p class="nav__overlay--p">&times;</p>
+
+          <ul class="
+              nav__list
+              d-flex
+              justify-content-center
+              align-items-center
+              list-unstyled
+            ">
+            <li class="nav__item">
+              <a href="#header" class="nav__link text-decoration-none text-decoration-none">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link text-decoration-none">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link text-decoration-none">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link text-decoration-none">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#team" class="nav__link text-decoration-none">Team</a>
+            </li>
+            <li class="nav__item">
+              <a href="#pricing" class="nav__link text-decoration-none">Pricing</a>
+            </li>
+            <li class="nav__item nav__dropdown">
+              <a class="nav__link nav__link--dropdown text-decoration-none">
+                Drop Down
+                <i class="fas fa-chevron-down"></i>
+
+                <ul class="
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                    list-unstyled
+                  ">
+                  <li><a class="text-decoration-none" href="#">link 1</a></li>
+                  <li><a class="text-decoration-none" href="#">link 2</a></li>
+                  <li><a class="text-decoration-none" href="#">link 3</a></li>
+                  <li><a class="text-decoration-none" href="#">link 4</a></li>
+                </ul>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link text-decoration-none">Contact us</a>
+            </li>
+            <li class="nav__item">
+              <button class="btn btn--secondary btn--started">
+                Get started
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__burger">
+          <div class="link1"></div>
+          <div class="link2"></div>
+          <div class=""></div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start main -->
+    <main>
+      <!-- start header -->
+      <header class="header d-flex justify-content-center align-items-center" id="header">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-6 mt-md-5">
+              <div class="
+                  header__content
+                  d-flex
+                  flex-column
+                  justify-content-center
+                  h-100
+                  align-items-start
+                ">
+                <h1 class="header__heading mt-md-5" data-aos="fade-up" data-aos-delay="300">
+                  Grow your business with Vesperr
+                </h1>
+                <h4 class="header__text" data-aos="fade-up" data-aos-delay="400">
+                  We are team of talented designers making websites with
+                  Bootstrap
+                </h4>
+                <button class="btn btn--primary btn--started" data-aos="fade-up" data-aos-delay="500">
+                  Get started
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6 aos-all" data-aos="fade-left" data-aos-delay="150">
+              <div class="header__image">
+                <img class="img-fluid animated" src="63d5ef98287605b7de60158fca63ff81" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- end header -->
+
+      <!-- start clients -->
+      <div class="clients">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-md-2">
+              <div class="clients__images" data-aos="fade-right" data-aos-delay="150">
+                <img class="img-fluid" src="382b90073ea521bf1df1a6a96b9348d0" alt="">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="clients__images" data-aos="fade-right" data-aos-delay="170">
+                <img class="img-fluid" src="239a26f5ef56c9bad47d684d06e97ab4" alt="">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="clients__images" data-aos="fade-right" data-aos-delay="190">
+                <img class="img-fluid" src="d95b72f6bb359b7f8fc0feb869c2169f" alt="">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="clients__images" data-aos="fade-right" data-aos-delay="210">
+                <img class="img-fluid" src="193c2ff265e7a7d3ed0ce3b4efa86ca8" alt="">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="clients__images" data-aos="fade-right" data-aos-delay="230">
+                <img class="img-fluid" src="ee02212a968ccf38ce6bc87d38b62250" alt="">
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="clients__images" data-aos="fade-right" data-aos-delay="250">
+                <img class="img-fluid" src="e20d6e15eae43fe1446fe5e75398ca33" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end clients -->
+
+      <!-- start about us -->
+      <section class="about" id="about">
+        <div class="heading__content text-center" data-aos="fade-up" data-aos-delay="200">
+          <h2 class="heading--primary">About us</h2>
+        </div>
+
+        <div class="container" data-aos="fade-up">
+          <div class="row gy-5 mb-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-md-6">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+
+              <ul class="about__list">
+                <li class="about__item">
+                  <i class="fas fa-check-double"></i>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat
+                </li>
+                <li class="about__item">
+                  <i class="fas fa-check-double"></i>
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                </li>
+                <li class="about__item">
+                  <i class="fas fa-check-double"></i>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+              </p>
+
+              <button class="btn btn--primary mt-5">Learn more</button>
+            </div>
+          </div>
+
+          <div class="row mt-5 gy-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-5 text-center mb-xl-5">
+              <img class="img-fluid" src="c493682e632b880bc5e731e2d5402867" alt="">
+            </div>
+            <div class="col-lg-7 mt-xl-5">
+              <div class="row gy-5">
+                <div class="col-md-6 d-flex align-items-lg-stretch px-3">
+                  <div class="about__count">
+                    <i class="far fa-smile about__icon"></i>
+                    <span class="about__number">46</span>
+                    <p>
+                      <strong> Happy Clients </strong> consequuntur voluptas
+                      nostrum aliquid ipsam architecto ut.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-lg-stretch px-3">
+                  <div class="about__count">
+                    <i class="fas fa-journal-whills about__icon"></i>
+                    <span class="about__number">85</span>
+                    <p>
+                      <strong> Projects </strong> adipisci atque cum quia
+                      aspernatur totam laudantium et quia dere tan
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-lg-stretch px-3">
+                  <div class="about__count">
+                    <i class="far fa-clock about__icon"></i>
+                    <span class="about__number">18</span>
+                    <p>
+                      <strong> Years of experienceHappy Clients </strong> aut
+                      commodi quaerat modi aliquam nam ducimus aut voluptate non
+                      vel
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-lg-stretch px-3">
+                  <div class="about__count">
+                    <i class="fas fa-award about__icon"></i>
+                    <span class="about__number">46</span>
+                    <p>
+                      <strong> Awards</strong> rerum asperiores dolor alias quo
+                      reprehenderit eum et nemo pad der
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end about us -->
+
+      <!-- start services -->
+      <section class="services" id="services">
+        <div class="heading__content text-center" data-aos="fade-up">
+          <h2 class="heading--primary">Services</h2>
+        </div>
+        <div class="container" data-aos="fade-up">
+          <p class="text-center mb-5">
+            Magnam dolores commodi suscipit eius consequatur ex aliquid fug
+          </p>
+
+          <div class="row gy-5 mb-5" data-aos="fade-up">
+            <div class="col-md-3">
+              <div class="services__box">
+                <div class="services__circle"></div>
+                <i class="fab fa-dribbble services__icon"></i>
+                <h2 class="services__heading">Lorem Ipsum</h2>
+                <p class="services__text">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="services__box">
+                <div class="services__circle"></div>
+                <i class="fas fa-file-contract services__icon"></i>
+                <h2 class="services__heading">Sed ut perspiciatis</h2>
+                <p class="services__text">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="services__box">
+                <div class="services__circle"></div>
+                <i class="fas fa-tachometer-alt services__icon"></i>
+                <h2 class="services__heading">Magni Dolores</h2>
+                <p class="services__text">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="services__box">
+                <div class="services__circle"></div>
+                <i class="fas fa-globe-africa services__icon"></i>
+                <h2 class="services__heading">Nemo Enim</h2>
+                <p class="services__text">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-4 mt-5" data-aos="fade-up">
+            <div class="col-md-6">
+              <div class="services__pics services__pics--1 d-flex align-items-end">
+                <div class="services__content">
+                  <h2 class="services__heading text-center">Lobira Duno</h2>
+                  <p class="services__text">
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                    tempor ut labore et dolore magna aliqua.
+                  </p>
+                  <a href="#" class="btn--arrow">
+                    <i class="fas fa-arrow-right"></i> Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="services__pics services__pics--2 d-flex align-items-end">
+                <div class="services__content">
+                  <h2 class="services__heading text-center">Lobira Duno</h2>
+                  <p class="services__text">
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                    tempor ut labore et dolore magna aliqua.
+                  </p>
+                  <a href="#" class="btn--arrow">
+                    <i class="fas fa-arrow-right"></i> Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="services__pics services__pics--3 d-flex align-items-end">
+                <div class="services__content">
+                  <h2 class="services__heading text-center">Lobira Duno</h2>
+                  <p class="services__text">
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                    tempor ut labore et dolore magna aliqua.
+                  </p>
+                  <a href="#" class="btn--arrow">
+                    <i class="fas fa-arrow-right"></i> Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="services__pics services__pics--4 d-flex align-items-end">
+                <div class="services__content">
+                  <h2 class="services__heading text-center">Lobira Duno</h2>
+                  <p class="services__text">
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                    tempor ut labore et dolore magna aliqua.
+                  </p>
+                  <a href="#" class="btn--arrow">
+                    <i class="fas fa-arrow-right"></i> Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end services -->
+
+      <!-- start features -->
+      <section class="features" id="features">
+        <div class="heading__content text-center" data-aos="fade-up">
+          <h2 class="heading--primary">features</h2>
+        </div>
+        <div class="container" data-aos="fade-up">
+          <p class="text-center mb-5">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem
+          </p>
+
+          <div class="row g-5" data-aos="fade-up">
+            <div class="col-md-3">
+              <div class="features__content">
+                <i class="fas fa-store features__icon features__icon--1"></i>
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="features__content">
+                <i class="far fa-chart-bar features__icon features__icon--2"></i>
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="features__content">
+                <i class="far fa-calendar-alt features__icon features__icon--3"></i>
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="features__content">
+                <i class="fas fa-paint-roller features__icon features__icon--4"></i>
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="features__content">
+                <i class="fas fa-database features__icon features__icon--5"></i>
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="features__content">
+                <i class="fas fa-poo-storm features__icon features__icon--6"></i>
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="features__content">
+                <i class="far fa-file-alt features__icon features__icon--7"></i>
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="features__content">
+                <i class="fas fa-money-check features__icon features__icon--8"></i>
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="features__content">
+                <i class="fas fa-anchor features__icon features__icon--9"></i>
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="features__content">
+                <i class="fas fa-compact-disc features__icon features__icon--10"></i>
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="features__content">
+                <i class="
+                    fas
+                    fa-charging-station
+                    features__icon features__icon--11
+                  "></i>
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="features__content">
+                <i class="fas fa-fingerprint features__icon features__icon--12"></i>
+                <span>Lorem Ipsum</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end features -->
+
+      <!-- start testimonial -->
+      <section class="testmonials" id="testmonials">
+        <div class="heading__content text-center" data-aos="fade-up">
+          <h2 class="heading--primary">TESTIMONIALS</h2>
+        </div>
+        <div class="container" data-aos="fade-up">
+          <p class="text-center mb-5">
+            Magnam dolores commodi suscipit eum quidem consectetur velit
+          </p>
+
+          <div class="swiper-container mySwiper" data-aos="fade-up">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testmonials__container">
+                  <div class="testmonials__content">
+                    <div class="testmonials__imgBx">
+                      <img src="46b37e9d8a8f8e8b7263c8d593fc7dc9" alt="" class="testmonials__img img-fluid">
+                    </div>
+
+                    <h4 class="testmonials__heading--primary">Saul Goodman</h4>
+                    <h6 class="testmonials__heading--secondary">
+                      Ceo & Founder
+                    </h6>
+                    <p class="testmonials__text">
+                      <i class="fas fa-quote-left"></i>
+
+                      Proin iaculis purus consequat sem cure digni ssim donec
+                      porttitora entum suscipit rhoncus. Accusantium quam,
+                      ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                      risus at semper.
+                      <br>
+                      <i class="fas fa-quote-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="testmonials__container">
+                  <div class="testmonials__content">
+                    <div class="testmonials__imgBx">
+                      <img src="1994db6be174c6455b1cddc8c912e636" alt="" class="testmonials__img img-fluid">
+                    </div>
+
+                    <h4 class="testmonials__heading--primary">Sara wilsson</h4>
+                    <h6 class="testmonials__heading--secondary">Designer</h6>
+                    <p class="testmonials__text">
+                      <i class="fas fa-quote-left"></i>
+
+                      Export tempor illum tamen malis malis eram quae irure esse
+                      labore quem cillum quid cillum eram malis quorum velit
+                      fore eram velit sunt aliqua noster fugiat irure amet legam
+                      anim culpa.
+
+                      <br>
+                      <i class="fas fa-quote-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="testmonials__container">
+                  <div class="testmonials__content">
+                    <div class="testmonials__imgBx">
+                      <img src="818ded6d679270189a12e9022b0d651f" alt="" class="testmonials__img img-fluid">
+                    </div>
+
+                    <h4 class="testmonials__heading--primary">Jena Karlis</h4>
+                    <h6 class="testmonials__heading--secondary">Store Owner</h6>
+                    <p class="testmonials__text">
+                      <i class="fas fa-quote-left"></i>
+                      Enim nisi quem export duis labore cillum quae magna enim
+                      sint quorum nulla quem veniam duis minim tempor labore
+                      quem eram duis noster aute amet eram fore quis sint minim.
+                      <br>
+                      <i class="fas fa-quote-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="testmonials__container">
+                  <div class="testmonials__content">
+                    <div class="testmonials__imgBx">
+                      <img src="7dc090a7d16c32ceb4f1575879be9da2" alt="" class="testmonials__img img-fluid">
+                    </div>
+
+                    <h4 class="testmonials__heading--primary">Matt Brandon</h4>
+                    <h6 class="testmonials__heading--secondary">Freelancer</h6>
+                    <p class="testmonials__text">
+                      <i class="fas fa-quote-left"></i>
+                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                      multos export minim fugiat minim velit minim dolor enim
+                      duis veniam ipsum anim magna sunt elit fore quem dolore
+                      labore illum veniam.
+                      <br>
+                      <i class="fas fa-quote-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="testmonials__container">
+                  <div class="testmonials__content">
+                    <div class="testmonials__imgBx">
+                      <img src="759ce5fe87572616d28bf909f7e2a2c8" alt="" class="testmonials__img img-fluid">
+                    </div>
+
+                    <h4 class="testmonials__heading--primary">John Larson</h4>
+                    <h6 class="testmonials__heading--secondary">
+                      Entrepreneur
+                    </h6>
+                    <p class="testmonials__text">
+                      <i class="fas fa-quote-left"></i>
+                      Quis quorum aliqua sint quem legam fore sunt eram irure
+                      aliqua veniam tempor noster veniam enim culpa labore duis
+                      sunt culpa nulla illum cillum fugiat legam esse veniam
+                      culpa fore nisi cillum quid.
+                      <br>
+                      <i class="fas fa-quote-right"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- end testimonial -->
+
+      <!-- start portfolio -->
+      <section class="portfolio" id="portfolio">
+        <div class="heading__content text-center" data-aos="fade-up">
+          <h2 class="heading--primary">PORTFOLIO</h2>
+        </div>
+
+        <div class="container" data-aos="fade-up">
+          <p class="text-center mb-5">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem
+          </p>
+
+          <div class="portfolio__btns text-center" data-aos="fade-up">
+            <button class="portfolio__btn portfolio__btn--active" data-target="all">
+              All
+            </button>
+            <button class="portfolio__btn" data-target="app">app</button>
+            <button class="portfolio__btn" data-target="card">card</button>
+            <button class="portfolio__btn" data-target="web">web</button>
+          </div>
+
+          <div class="row g-5" data-aos="fade-up">
+            <div class="col-md-4" data-id="app">
+              <div class="portfolio__container">
+                <div class="portfolio__imgBx">
+                  <img src="5c7d702f031605a13c2d984f8e585ea6" alt="" class="portfolio__img img-fluid">
+                </div>
+
+                <div class="portfolio__content">
+                  <h6>App 1</h6>
+                  <p>App</p>
+                  <div class="portfolio__icons">
+                    <i class="fas fa-plus me-3 portfolio__open"></i>
+                    <i class="fas fa-link portfolio__details"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-id="web">
+              <div class="portfolio__container">
+                <div class="portfolio__imgBx">
+                  <img src="8c38f57324c81249166f8a0559bfb228" alt="" class="portfolio__img img-fluid">
+                </div>
+
+                <div class="portfolio__content">
+                  <h6>web 3</h6>
+                  <p>web</p>
+                  <div class="portfolio__icons">
+                    <i class="fas fa-plus me-3 portfolio__open"></i>
+                    <i class="fas fa-link portfolio__details"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-id="app">
+              <div class="portfolio__container">
+                <div class="portfolio__imgBx">
+                  <img src="491451eb3f88d2f69398ed76f8325ac0" alt="" class="portfolio__img img-fluid">
+                </div>
+
+                <div class="portfolio__content">
+                  <h6>App 2</h6>
+                  <p>App</p>
+                  <div class="portfolio__icons">
+                    <i class="fas fa-plus me-3 portfolio__open"></i>
+                    <i class="fas fa-link portfolio__details"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-id="card">
+              <div class="portfolio__container">
+                <div class="portfolio__imgBx">
+                  <img src="94da5a743533908aa539db470284f5a2" alt="" class="portfolio__img img-fluid">
+                </div>
+
+                <div class="portfolio__content">
+                  <h6>card 2</h6>
+                  <p>card</p>
+                  <div class="portfolio__icons">
+                    <i class="fas fa-plus me-3 portfolio__open"></i>
+                    <i class="fas fa-link portfolio__details"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-id="web">
+              <div class="portfolio__container">
+                <div class="portfolio__imgBx">
+                  <img src="295002c79572fec1b5a8eb5f6ae6620b" alt="" class="portfolio__img img-fluid">
+                </div>
+
+                <div class="portfolio__content">
+                  <h6>web 2</h6>
+                  <p>web</p>
+                  <div class="portfolio__icons">
+                    <i class="fas fa-plus me-3 portfolio__open"></i>
+                    <i class="fas fa-link portfolio__details"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-id="app">
+              <div class="portfolio__container">
+                <div class="portfolio__imgBx">
+                  <img src="0c23cb4f171476ff41971e74b47da302" alt="" class="portfolio__img img-fluid">
+                </div>
+
+                <div class="portfolio__content">
+                  <h6>App 3</h6>
+                  <p>App</p>
+                  <div class="portfolio__icons">
+                    <i class="fas fa-plus me-3 portfolio__open"></i>
+                    <i class="fas fa-link portfolio__details"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-id="card">
+              <div class="portfolio__container">
+                <div class="portfolio__imgBx">
+                  <img src="adbe3c840ab751f8f0d5ef6e3a0c369e" alt="" class="portfolio__img img-fluid">
+                </div>
+
+                <div class="portfolio__content">
+                  <h6>card 1</h6>
+                  <p>card</p>
+                  <div class="portfolio__icons">
+                    <i class="fas fa-plus me-3 portfolio__open"></i>
+                    <i class="fas fa-link portfolio__details"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-id="card">
+              <div class="portfolio__container">
+                <div class="portfolio__imgBx">
+                  <img src="0b732385d3eece0ce01236fd15c350fc" alt="" class="portfolio__img img-fluid">
+                </div>
+
+                <div class="portfolio__content">
+                  <h6>card 3</h6>
+                  <p>card</p>
+                  <div class="portfolio__icons">
+                    <i class="fas fa-plus me-3 portfolio__open"></i>
+                    <i class="fas fa-link portfolio__details"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-id="web">
+              <div class="portfolio__container">
+                <div class="portfolio__imgBx">
+                  <img src="13aa81bb27eba4649485a64983e49e8f" alt="" class="portfolio__img img-fluid">
+                </div>
+
+                <div class="portfolio__content">
+                  <h6>web 3</h6>
+                  <p>web</p>
+                  <div class="portfolio__icons">
+                    <i class="fas fa-plus me-3 portfolio__open"></i>
+                    <i class="fas fa-link portfolio__details"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__preview">
+          <div class="portfolio__preview--imgBx">
+            <img src="25b42b759c3e9164c01369093a0c8390" alt="" class="mb-5 img-fluid">
+            <p></p>
+          </div>
+
+          <i class="fas fa-times portfolio__preview--close"></i>
+        </div>
+      </section>
+      <!-- end portfolio -->
+
+      <!-- start team -->
+      <section class="team" id="team">
+        <div class="heading__content text-center" data-aos="fade-up">
+          <h2 class="heading--primary">Team</h2>
+        </div>
+
+        <div class="container" data-aos="fade-up">
+          <p class="text-center mb-5">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem
+          </p>
+
+          <div class="row g-5" data-aos="fade-up">
+            <div class="col-lg-3 col-md-6">
+              <div class="team__box">
+                <div class="team__content">
+                  <div class="team__imgBx">
+                    <img src="ec1be9b65608de678adf27f475d93d83" alt="team 1" class="team__img img-fluid">
+                  </div>
+
+                  <div class="
+                      team__icons
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    ">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                  </div>
+                </div>
+                <div class="team__text text-center">
+                  <h3 class="team__heading">Walter White</h3>
+                  <p class="team__bio">Chief Executive Officer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="team__box">
+                <div class="team__content">
+                  <div class="team__imgBx">
+                    <img src="a7304987b8ec697a6e792e8f98fa01d0" alt="team 1" class="team__img img-fluid">
+                  </div>
+
+                  <div class="
+                      team__icons
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    ">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                  </div>
+                </div>
+                <div class="team__text text-center">
+                  <h3 class="team__heading">Sarah Jhonson</h3>
+                  <p class="team__bio">Product Manager</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="team__box">
+                <div class="team__content">
+                  <div class="team__imgBx">
+                    <img src="3b42c71e55f7a7850b1299889f0df876" alt="team 1" class="team__img img-fluid">
+                  </div>
+
+                  <div class="
+                      team__icons
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    ">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                  </div>
+                </div>
+                <div class="team__text text-center">
+                  <h3 class="team__heading">William Anderson</h3>
+                  <p class="team__bio">CTO</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="team__box">
+                <div class="team__content">
+                  <div class="team__imgBx">
+                    <img src="7e1f80bad63d5a2a089bd742d6ed4e07" alt="team 1" class="team__img img-fluid">
+                  </div>
+
+                  <div class="
+                      team__icons
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    ">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                  </div>
+                </div>
+                <div class="team__text text-center">
+                  <h3 class="team__heading">Amanda Jepson</h3>
+                  <p class="team__bio">Accountant</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end team -->
+
+      <!-- start pricing -->
+      <section class="pricing" id="pricing">
+        <div class="heading__content text-center" data-aos="fade-up">
+          <h2 class="heading--primary">Pricing</h2>
+        </div>
+
+        <div class="container" data-aos="fade-up">
+          <p class="text-center mb-5">
+            Sit sint consectetur velit nemo qui impedit suscipit alias ea
+          </p>
+
+          <div class="row gy-5" data-aos="fade-up">
+            <div class="col-lg-4 col-md-6">
+              <div class="pricing__box text-center">
+                <p class="pricing__text">Free</p>
+
+                <h3 class="pricing__heading mb-4">
+                  <sup>$</sup>
+                  0
+                  <sub>/ month</sub>
+                </h3>
+
+                <ul class="pricing__list list-unstyled">
+                  <li class="pricing__item mb-4">Aida dere</li>
+                  <li class="pricing__item mb-3">Nec feugiat nisl</li>
+                  <li class="pricing__item mb-3">Nulla at volutpat dola</li>
+                  <li class="
+                      pricing__item pricing__item--light
+                      text-decoration-line-through
+                      mb-3
+                    ">
+                    Pharetra massa
+                  </li>
+                  <li class="
+                      pricing__item pricing__item--light
+                      text-decoration-line-through
+                      mb-5
+                    ">
+                    Massa ultricies mi
+                  </li>
+                </ul>
+
+                <button class="btn btn--primary">Buy now</button>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="pricing__box pricing__box--primary text-center">
+                <p class="pricing__text">Business</p>
+
+                <h3 class="pricing__heading mb-4">
+                  <sup>$</sup>
+                  19
+                  <sub>/ month</sub>
+                </h3>
+
+                <ul class="pricing__list list-unstyled">
+                  <li class="pricing__item mb-4">Aida dere</li>
+                  <li class="pricing__item mb-3">Nec feugiat nisl</li>
+                  <li class="pricing__item mb-3">Nulla at volutpat dola</li>
+                  <li class="pricing__item mb-3">Pharetra massa</li>
+                  <li class="
+                      pricing__item pricing__item--light
+                      text-decoration-line-through
+                      mb-5
+                    ">
+                    Massa ultricies mi
+                  </li>
+                </ul>
+
+                <button class="btn btn--primary btn--primary--dark">
+                  Buy now
+                </button>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="pricing__box text-center">
+                <p class="pricing__text">Developer</p>
+
+                <h3 class="pricing__heading mb-4">
+                  <sup>$</sup>
+                  29
+                  <sub>/ month</sub>
+                </h3>
+
+                <ul class="pricing__list list-unstyled">
+                  <li class="pricing__item mb-4">Aida dere</li>
+                  <li class="pricing__item mb-3">Nec feugiat nisl</li>
+                  <li class="pricing__item mb-3">Nulla at volutpat dola</li>
+                  <li class="pricing__item mb-3">Pharetra massa</li>
+                  <li class="pricing__item mb-5">Massa ultricies mi</li>
+                </ul>
+
+                <button class="btn btn--primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end pricing -->
+
+      <!-- start FREQUENTLY ASKED QUESTIONS -->
+      <section class="question" id="question">
+        <div class="heading__content text-center mb-5" data-aos="fade-up">
+          <h2 class="heading--primary">ASKED QUESTIONS</h2>
+        </div>
+
+        <div class="container" data-aos="fade-up">
+          <div class="row question__box" data-aos="fade-up">
+            <div class="col-md-5 d-flex">
+              <i class="far fa-question-circle me-4"></i>
+              <h4 class="question__heading">
+                Non consectetur a erat nam at lectus urna duis?
+              </h4>
+            </div>
+            <div class="col-md-7">
+              <p class="question__text">
+                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                volutpat lacus laoreet non curabitur gravida. Venenatis lectus
+                magna fringilla urna porttitor rhoncus dolor purus non.
+              </p>
+            </div>
+          </div>
+
+          <div class="row question__box" data-aos="fade-up">
+            <div class="col-md-5 d-flex">
+              <i class="far fa-question-circle me-4"></i>
+              <h4 class="question__heading">
+                scelerisque varius morbi enim nunc faucibus a pellentesque?
+              </h4>
+            </div>
+            <div class="col-md-7">
+              <p class="question__text">
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant
+                morbi. Id interdum velit laoreet id donec ultrices. Fringilla
+                phasellus faucibus scelerisque eleifend donec pretium. Est
+                pellentesque elit ullamcorper dignissim.
+              </p>
+            </div>
+          </div>
+
+          <div class="row question__box" data-aos="fade-up">
+            <div class="col-md-5 d-flex">
+              <i class="far fa-question-circle me-4"></i>
+              <h4 class="question__heading">
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant
+                morbi?
+              </h4>
+            </div>
+            <div class="col-md-7">
+              <p class="question__text">
+                Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                sagittis orci. Faucibus pulvinar elementum integer enim. Sem
+                nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+                pellentesque eu tincidunt. Lectus urna duis convallis convallis
+                tellus.
+              </p>
+            </div>
+          </div>
+
+          <div class="row question__box" data-aos="fade-up">
+            <div class="col-md-5 d-flex">
+              <i class="far fa-question-circle me-4"></i>
+              <h4 class="question__heading">
+                Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+              </h4>
+            </div>
+            <div class="col-md-7">
+              <p class="question__text">
+                Aperiam itaque sit optio et deleniti eos nihil quidem cumque.
+                Voluptas dolorum accusantium sunt sit enim. Provident
+                consequuntur quam aut reiciendis qui rerum dolorem sit odio.
+                Repellat assumenda soluta sunt pariatur error doloribus fuga.
+              </p>
+            </div>
+          </div>
+
+          <div class="row question__box">
+            <div class="col-md-5 d-flex">
+              <i class="far fa-question-circle me-4"></i>
+              <h4 class="question__heading">
+                Tempus quam pellentesque nec nam aliquam sem et tortor
+                consequat?
+              </h4>
+            </div>
+            <div class="col-md-7">
+              <p class="question__text">
+                Molestie a iaculis at erat pellentesque adipiscing commodo.
+                Dignissim suspendisse in est ante in. Nunc vel risus commodo
+                viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+                bibendum est. Purus gravida quis blandit turpis cursus in
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end FREQUENTLY ASKED QUESTIONS -->
+
+      <!-- start contact -->
+      <section class="contact" id="contact">
+        <div class="heading__content text-center mb-5" data-aos="fade-up">
+          <h2 class="heading--primary">Contact us</h2>
+        </div>
+
+        <div class="container" data-aos="fade-up">
+          <div class="row g-5" data-aos="fade-up">
+            <div class="col-lg-4 col-md-6">
+              <div class="contact__content">
+                <h4 class="contact__heading">Vesperr</h4>
+                <div class="contact__text mt-3 mb-4">
+                  Cras fermentum odio eu feugiat. Justo eget magna fermentum
+                  iaculis eu non diam phasellus. Scelerisque felis imperdiet
+                  proin fermentum leo. Amet volutpat consequat mauris nunc
+                  congue.
+                </div>
+
+                <div class="contact__icons">
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-linkedin-in"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="contact__address">
+                <h3 class="contact__address--location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  meet mazah, mansoura
+                </h3>
+                <h3 class="contact__address--location">
+                  <i class="far fa-envelope"></i>
+                  mofeedmostafa83@gmail.com
+                </h3>
+                <h3 class="contact__address--location">
+                  <i class="fas fa-phone-alt"></i>
+                  01501344134
+                </h3>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-12">
+              <form action="#" class="contact__form text-center">
+                <input type="text" placeholder="Your Name" required="" class="form-control">
+                <input type="text" placeholder="Your Email" required="" class="form-control">
+                <input type="text" placeholder="Subject" required="" class="form-control">
+                <textarea placeholder="Message" class="form-control" cols="2" rows="5"></textarea>
+
+                <button type="submit" class="btn btn--primary btn--primary--dark">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end contact -->
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-md-6 text-center">
+            <div class="footer__content">
+              &copy; Copyright Vesperr. All Rights Reserved <br>
+              Designed by
+              <a href="e006b4ad8903d78ba38ce8fc5865ad9e" target="_blank">Mostafa Mofeed</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <ul class="
+                footer__list
+                list-unstyled
+                d-flex
+                justify-content-center
+                align-items-center
+              ">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Home</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">About</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy Policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms of Use</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <!--start btn scroll to top -->
+    <button class="btn btn--top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- end btn scroll to top -->
+
+    <script src="f68dd7725a873d6f6ffd719eeb703b81"></script>
+    <script src="36aba637ae8184f56f1a9a1a9e45941b"></script>
+  </body>
+</html>

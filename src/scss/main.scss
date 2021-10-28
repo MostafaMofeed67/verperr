@@ -1,0 +1,23 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "abstracts/maxins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+
+@import "component/about";
+@import "component/buttons";
+@import "component/clients";
+@import "component/contact";
+@import "component/features";
+@import "component/portfolio";
+@import "component/pricing";
+@import "component/question";
+@import "component/services";
+@import "component/team";
+@import "component/testmonials";
+
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/navbar";

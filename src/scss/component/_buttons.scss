@@ -1,0 +1,82 @@
+.btn {
+  padding: 1rem 3.5rem;
+  border-radius: 10rem;
+  font-size: $default-font-size;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+
+  &--primary {
+    border: 2px solid $color-primary;
+    color: $color-primary;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $color-primary;
+      color: $color-white;
+    }
+
+    &--dark {
+      background-color: $color-primary;
+      color: $color-white;
+
+      &:hover {
+        background-color: $color-primary-light;
+      }
+    }
+  }
+
+  &--secondary {
+    padding: 0.5rem 2rem;
+    background-color: $color-primary;
+
+    &:hover {
+      background-color: $color-primary-light;
+      color: $color-white;
+    }
+  }
+
+  &--arrow {
+    color: $color-grey-dark-1;
+    text-decoration: none;
+    transition: 0.5s;
+
+    &:hover {
+      text-decoration: underline;
+      color: $color-white;
+    }
+
+    i {
+      font-size: 1.1rem;
+      margin-right: 5px;
+    }
+  }
+
+  &--top {
+    position: fixed;
+    right: 1.5rem;
+    bottom: -100%;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 5px;
+    color: $color-white;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: 2rem;
+    transition: bottom 1s ease-in-out;
+
+    &:hover {
+      background-color: $color-primary-light;
+      color: $color-white;
+    }
+  }
+
+  &--top.active {
+    bottom: 1.5rem;
+  }
+}

@@ -1,0 +1,74 @@
+.features {
+  &__content {
+    background-color: $color-secondary-light;
+    padding: 2rem;
+    transition: 0.5s;
+
+    span {
+      font-weight: 700;
+      transition: 0.5s;
+      cursor: pointer;
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+
+    &:hover {
+      background-color: rgba($color-secondary-dark, 0.6);
+    }
+  }
+
+  &__icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+
+    &--1 {
+      color: #ffbb2c;
+    }
+
+    &--2 {
+      color: $color-primary-light;
+    }
+
+    &--3 {
+      color: #e80368;
+    }
+
+    &--4 {
+      color: #e361ff;
+    }
+
+    &--5 {
+      color: $color-primary;
+    }
+
+    &--6 {
+      color: #ffa76e;
+    }
+
+    &--7 {
+      color: #11dbcf;
+    }
+
+    &--8 {
+      color: #4233ff;
+    }
+
+    &--9 {
+      color: #b2904f;
+    }
+
+    &--10 {
+      color: #b20969;
+    }
+
+    &--11 {
+      color: #ff5828;
+    }
+
+    &--12 {
+      color: #29cc61;
+    }
+  }
+}

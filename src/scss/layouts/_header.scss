@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  min-height: 83vh;
+  position: relative;
+  
+
+  &__heading {
+    color: $color-black;
+    font-weight: 700;
+    font-size: 4.5rem;
+  }
+
+  &__text {
+    width: 95%;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  &__image {
+    img {
+      animation: moveImg ease-in-out 3s infinite;
+    }
+  }
+
+  .container {
+    @include respond(tab-port) {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .col-lg-6 {
+    @include respond(phone) {
+      &:first-of-type {
+        margin-top: 10rem;
+      }
+    }
+  }
+}
+
+@keyframes moveImg {
+  0% {
+    transform: translateY(-1rem);
+  }
+
+  50% {
+    transform: translateY(0.5rem);
+  }
+
+  100% {
+    transform: translateY(-1rem);
+  }
+}

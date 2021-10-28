@@ -1,0 +1,46 @@
+.about {
+  p {
+    width: 90%;
+  }
+
+  &__list {
+    list-style: none;
+
+    i {
+      font-size: 1.3rem;
+      color: $color-primary;
+      margin-right: 5px;
+    }
+  }
+
+  img {
+    height: 30rem;
+  }
+
+  &__count {
+    padding: 0 1.5rem;
+    display: grid;
+    grid-template-columns: 3.5rem 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 1rem;
+
+    p {
+      width: 100%;
+      margin-bottom: 0;
+      text-align: justify;
+    }
+  }
+
+  &__icon {
+    color: $color-primary;
+    font-size: 3.5rem;
+    grid-row: 1 / span 2;
+  }
+
+  &__number {
+    font-size: 4rem;
+    font-weight: 700;
+    color: $color-grey-dark-2;
+    line-height: 3rem;
+  }
+}

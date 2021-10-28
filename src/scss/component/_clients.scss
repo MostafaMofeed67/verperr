@@ -1,0 +1,20 @@
+.clients {
+  background-color: $color-secondary;
+  padding: 3rem 0;
+
+  &__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    height: 3.5rem;
+    filter: grayscale(100%);
+    transition: 0.3s;
+
+    &:hover {
+      filter: grayscale(0%);
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.team {
+  background-color: $color-secondary;
+
+  &__box {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.1);
+  }
+
+  &__box:hover &__icons {
+    opacity: 1;
+  }
+
+  &__content {
+    position: relative;
+  }
+
+  &__icons {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem 9rem;
+    opacity: 0;
+    transition: 0.5s;
+
+    i {
+      font-size: 1.8rem;
+      transition: 0.5s;
+      cursor: pointer;
+
+      &:not(:first-of-type) {
+        margin-left: 2rem;
+      }
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+
+  &__text {
+    padding: 2rem 3rem;
+  }
+
+  &__heading {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: $color-grey-dark-2;
+  }
+
+  &__bio {
+    color: $color-grey-light;
+  }
+}

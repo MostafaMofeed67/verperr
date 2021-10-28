@@ -1,0 +1,143 @@
+.portfolio {
+  position: relative;
+
+  &__btn {
+    text-transform: uppercase;
+    margin-right: 5px;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 1.4rem;
+    width: 5.5rem;
+    height: 3.5rem;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-bottom: 2rem;
+
+    &:hover {
+      background-color: $color-primary;
+      color: $color-white;
+    }
+  }
+
+  &__btn.portfolio__btn--active {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+
+  &__container {
+    overflow: hidden;
+    position: relative;
+
+    &:hover img {
+      transform: scale(1.2);
+    }
+
+    &:hover .portfolio__content {
+      opacity: 1;
+    }
+  }
+
+  &__img {
+    transition: 0.5s;
+  }
+
+  &__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: $color-white;
+    transition: 0.5s;
+    opacity: 0;
+
+    h6 {
+      text-transform: capitalize;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    p {
+      text-transform: capitalize;
+      color: rgba(225, 225, 225, 0.7);
+    }
+
+    i {
+      font-size: 2rem;
+      font-weight: 400;
+      cursor: pointer;
+      transition: 0.5s;
+
+      &:hover {
+        color: $color-primary;
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &__preview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 4000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+    transform: scale(0.9);
+    padding: 3rem 0;
+
+    &--imgBx {
+      background-color: $color-white;
+      width: fit-content;
+      padding-bottom: 2rem;
+
+      p {
+        margin-left: 2rem;
+      }
+    }
+
+    &--close {
+      position: absolute;
+      top: 5rem;
+      right: 5rem;
+      cursor: pointer;
+      width: 4rem;
+      height: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.5s;
+      font-size: 3rem;
+      font-weight: 400;
+
+      &:hover {
+        background-color: $color-black;
+        color: $color-white;
+      }
+    }
+  }
+
+  &__preview.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+  }
+
+  .row {
+    .col-md-4.active {
+      display: none;
+    }
+  }
+}

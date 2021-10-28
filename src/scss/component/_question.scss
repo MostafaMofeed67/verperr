@@ -1,0 +1,22 @@
+.question {
+  &__box {
+    padding-bottom: 2.6rem;
+    border-bottom: 1px solid #eeeeee;
+
+    &:not(:last-of-type) {
+      margin-bottom: 4rem;
+    }
+
+    i {
+      color: $color-primary;
+      font-weight: 700;
+      font-size: 1.8rem;
+    }
+  }
+
+  &__heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: $color-grey-dark;
+  }
+}
